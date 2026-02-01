@@ -39,14 +39,14 @@ public class Payslip {
     }
 
     public double getNetAmount() {
-        return netAmount;
+         return netAmount;
     }
 
     public String generatePayslip() {
-        return "Payslip ID: " + payslipID +
-               "\nEmployee: " + employee.getName() +
-               "\nGross: " + grossAmount +
-               "\nDeductions: " + deductions +
-               "\nNet: " + netAmount;
+          return  "Payslip ID: "    + payslipID +
+                  "\nEmployee: " + employee.getName() +
+                  "\nGross: " + grossAmount +
+                  "\nDeductions: " + deductions +
+                  "\nNet: " + netAmount;
     }
 }
